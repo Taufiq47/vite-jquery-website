@@ -1,11 +1,11 @@
-export const helloMsg = (element) => {
-    element.innerHTML = "Hello"
-    element.addEventListener('click', () => alert("hello"))
-}
+import $ from "jquery"
 
-export const goodBye = (element) => {
-    element.innerHTML = "Bye"
-    element.addEventListener('click', () => alert("Goood Bye"))
-}
+export const nilaiTeknik = (element) => {
+    const nilai = ["Zenioritas", "Zolidaritas", "Loyalitaz"]
+    let count = 0
 
-export default helloMsg
+    element.click(() => {
+        $('.nilai').text(nilai[count]);
+        count = (count + 1) % nilai.length;
+    });
+}
