@@ -1,7 +1,7 @@
 import $ from "jquery"
 
 export const nilaiTeknik = (element) => {
-    const nilai = ["Zenioritas", "Zolidaritas", "Loyalitaz"]
+    const nilai = ["Selamat", "Pagi", "Siang", "Sore", "Malam"]
     let count = 0
 
     element.click(() => {
