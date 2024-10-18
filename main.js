@@ -6,9 +6,9 @@ $('#app').html( `
   <div>
     <div class="container">
       <div id="nilai">
-        <p class="nilai">NILAI</p>
+        <p class="nilai">Halo</p>
       </div>
-      <button id="teknik">TEKNIK</button>
+      <button id="teknik">KLIK</button>
     </div>
   </div>
 `)
